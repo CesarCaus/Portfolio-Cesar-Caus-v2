@@ -1,0 +1,24 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "buttons": {
+      "toggleTheme": "Toggle Theme",
+      "toggleLanguage": "Toggle Language",
+      "projects": "Projects",
+      "contact": "Contact me",
+      "about": "About me"
+    },
+    "titles": {
+      "position": "Software Developer",
+      "about": "About me",
+      "experience": "My Experience"
+    }, 
+    "texts": {
+      "aboutMe": "My name is César Caus, I am 23 years old, and I am a student at the Federal University of Goiás. I currently work as a web developer and requirements assistant at Simeon. My area of study focuses on front-end and mobile development, with an emphasis on improving knowledge in software architecture, performance, and best development practices."
+    }
+  }
+  

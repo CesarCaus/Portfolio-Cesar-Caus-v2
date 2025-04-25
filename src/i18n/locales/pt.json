@@ -1,0 +1,24 @@
+{
+    "nav": {
+      "home": "Início",
+      "about": "Sobre",
+      "projects": "Projetos",
+      "contact": "Contato"
+    },
+    "buttons": {
+      "toggleTheme": "Alternar Tema",
+      "toggleLanguage": "Alternar Idioma",
+      "projects": "Projetos",
+      "contact": "Contato",
+      "about": "Sobre mim"
+    },
+    "titles": {
+      "position": "Desenvolvedor de Software",
+      "about": "Sobre mim",
+      "experience": "Minha Experiência"
+    }, 
+    "texts": {
+    "aboutMe": "Me chamo César Caus, tenho 23 anos e sou estudante da Universidade Federal de Goiás, atualmente atuo como desenvolvedor web e assistente de requisitos na Simeon. Meu foco de estudos é no desenvolvimento front-end e mobile, com ênfase no aprimoramento de conhecimentos em arquitetura de software, desempenho e boas práticas de desenvolvimento."
+    }
+  }
+  
