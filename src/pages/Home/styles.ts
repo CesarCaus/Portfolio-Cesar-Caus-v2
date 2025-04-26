@@ -39,7 +39,7 @@ export const ArcFill = styled.div`
     position: absolute;
     bottom: 0;
     background: linear-gradient(135deg, #a259ff, #5b00d1);
-`
+`;
 
 export const LeftContainer = styled.div`
     width: 50%;
@@ -50,21 +50,20 @@ export const LeftContainer = styled.div`
     flex-direction: column;
     z-index: 10;
 
-    
     @media (max-width: 800px) {
         width: 100%;
     }
-`
+`;
 
 export const TextContainer = styled.div<TextContainerProps>`
     width: fit-content;
-    margin-top: ${({ mt, theme}) => theme.metrics.px(mt)}px;
+    margin-top: ${({ mt, theme}) => theme.metrics.px(mt ?? 0)}px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     position: relative;
     gap: 20px;
-`
+`;
 
 const typing = keyframes`
   from { width: 0 }
@@ -93,7 +92,7 @@ export const StyledButton = styled.button<ButtonProps>`
     border-radius: ${({ theme }) => theme.metrics.borderRadius.md};
     outline: none;
     cursor: pointer;
-`
+`;
 
 export const RightContainer = styled.div`
     width: 50%;
@@ -108,4 +107,4 @@ export const RightContainer = styled.div`
     height: 50%;
     order: -1;
   }
-`
+`;

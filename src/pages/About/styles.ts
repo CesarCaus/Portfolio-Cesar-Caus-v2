@@ -12,7 +12,7 @@ export const Row= styled.div`
 `
 export const TextContainer = styled.div<TextContainerProps>`
     width: fit-content;
-    margin-top: ${({ mt, theme}) => theme.metrics.px(mt)}px;
+    margin-top: ${({ mt, theme}) => theme.metrics.px(mt ?? 0)}px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;

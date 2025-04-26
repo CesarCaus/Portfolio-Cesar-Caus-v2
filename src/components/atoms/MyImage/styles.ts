@@ -31,8 +31,8 @@ export const BoxEffect = styled.div<BoxEffectProps>`
   height: ${({ theme }) => theme.metrics.px(350)}px;
   background-color: white;
   filter: blur(${({ blur })=> blur}px);
-  margin-top: ${({ theme, mt })=> theme.metrics.px(mt)}px;
-  margin-left: ${({ theme, ml })=> theme.metrics.px(ml)}px;
+  margin-top: ${({ theme, mt })=> theme.metrics.px(mt || 0)}px;
+  margin-left: ${({ theme, ml })=> theme.metrics.px(ml || 0)}px;
   position: absolute;
   border-radius: 10px;
   box-shadow: 1px 2px 20px black;
