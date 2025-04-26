@@ -1,17 +1,24 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "./dist",
     "jsx": "react-jsx",
     "paths": {
-      "@constants/*": ["constantes/*"],        
+      "@constants/*": ["constantes/*"],
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"]
-    }
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "resolveJsonModule": true,
   },
-  "files": [],
-  "include": ["src", "scripts", "scripts"],                
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "include": ["src", "scripts"],
+  "exclude": ["node_modules", "**/*.d.ts"]
 }
